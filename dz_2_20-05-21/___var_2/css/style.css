@@ -1,0 +1,45 @@
+body {
+  font-size: 50px;
+  line-height: 2.2;
+  text-align: center;
+  color: #fff;
+}
+
+.flex-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex__item {
+  height: 100px;
+}
+
+main {
+  display: flex;
+}
+
+.item-1 {
+  background-color: rgb(89, 87, 241);
+}
+
+.item-2 {
+  background-color: rgb(20, 2, 122);
+}
+
+.item-3 {
+  height: 250px;
+  flex: 2;
+  background-color: rgb(21, 185, 235);
+}
+
+.item-4 {
+  height: 250px;
+  flex: 1;
+  background-color: rgb(157, 21, 235);
+}
+
+.item-5 {
+  background-color: rgb(96, 157, 214);
+}

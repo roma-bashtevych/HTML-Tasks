@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ccc;
+}
+
+.container {
+  max-width: 1030px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inner {
+  display: flex;
+  gap: 30px;
+  height: 50px;
+}
+
+.logo {
+  width: 30%;
+}
+
+.nav {
+  width: 100%;
+}
+
+.top {
+  height: 75px;
+}
+
+.block {
+  background-color: rgb(49, 7, 201);
+  height: 200px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 50%;
+}
+
+.logo,
+.nav,
+.top,
+.item {
+  background-color: rgb(93, 160, 247);
+}
+
+.item {
+  width: 235px;
+  height: 185px;
+}
+
+.item5,
+.item14 {
+  width: 500px;
+  height: 400px;
+}
+
+.colum {
+  display: flex;
+  gap: 30px;
+}
+
+.row-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+.row,
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 50%;
+}
+
+.rows {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.item-silver {
+  background-color: rgb(70, 65, 65);
+}

@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(184, 182, 182);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.viki {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px 30px;
+  transition: color 0.5s,
+    background-color 0.5s;
+}
+
+.viki:hover {
+  color: white;
+  background-color: black;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 33.33%;
+  margin-right: 10px;
+}
+
+.link {
+  color: tomato;
+}
+
+h3 {
+  color: blue;
+}
+
+.list {
+  font-style: italic;
+  color: rgb(4, 104, 18);
+}
+
+.up {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px 40px;
+  font-size: 30px;
+  color: red;
+  transition: color 0.5s,
+    background-color 0.5s;
+  background-color: rgb(41, 9, 9);
+}
+
+.up:hover {
+  color: black;
+  background-color: rgb(184, 89, 89);
+}
+
+.btn {
+  margin-bottom: 100px;
+}

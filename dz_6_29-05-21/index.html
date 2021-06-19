@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Потрачено - nigth club</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <div class="menu__logo">
+          <a class="logo" href="#">
+            <img class="logo__img" src="image/logo/logo.svg" alt="Логотип">
+          </a>
+        </div>
+        <div class="menu__contact">
+
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Главная
+              </a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">
+                Меню
+              </a>
+            </li>
+            <li class="menu__item menu__item--drop-down">
+              <a class="menu__link" href="#">
+                Еще...
+              </a>
+              <ul class="drop-down__list">
+                <li class="drop-down__item">
+                  <a class="menu__link menu__link--drop-down" href="#">
+                    Фотоотчеты
+                  </a>
+                </li>
+                <li class="drop-down__item">
+                  <a class="menu__link menu__link--drop-down" href="#">
+                    Правила заведения
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <a class="menu__phone" href="tel:88009999999">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.5433 18.3006C23.8597 18.3006 22.2065 18.0373 20.64 17.5196C19.8723 17.2577 18.9287 17.4979 18.4602 17.9791L15.3681 20.3133C11.7821 18.3991 9.57326 16.191 7.68522 12.6319L9.95074 9.62041C10.5393 9.0326 10.7505 8.17394 10.4975 7.36828C9.9776 5.79347 9.71348 4.14111 9.71348 2.45673C9.71356 1.23993 8.72363 0.25 7.5069 0.25H2.45665C1.23993 0.25 0.25 1.23993 0.25 2.45666C0.25 16.4036 11.5964 27.75 25.5433 27.75C26.7601 27.75 27.75 26.7601 27.75 25.5433V20.5072C27.7499 19.2905 26.76 18.3006 25.5433 18.3006Z"
+                fill="white" />
+            </svg>
+          </a>
+          <button class="menu__btn" type="button">
+            <span class="menu__line menu__line--top"></span>
+            <span class="menu__line menu__line--center"></span>
+            <span class="menu__line menu__line--bottom"></span>
+          </button>
+          <button class="menu__button" type="button">Забронировать</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+ 
+  <main>
+    <h1 class="sr-only">Меню nigth club Потрачено</h1>
+    <section class="news">
+      <div class="container">
+        <h2 class="news__title">Новости и акции</h2>
+        <ul class="news__slider">
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card1.png" alt="Скидка студентам">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card2.png" alt="Время роботы">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card3.png" alt="Коктель в подарок">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card1.png" alt="Скидка студентам">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card2.png" alt="Время роботы">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card2.png" alt="Время роботы">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card3.png" alt="Коктель в подарок">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card1.png" alt="Скидка студентам">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card2.png" alt="Время роботы">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <img class="news__img" src="image/slider/card3.png" alt="Коктель в подарок">
+            <a class="news__item-link" href="#">Подробнее</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bar-menu">
+      <h2 class="sr-only">Bar Menu</h2>
+      <div class="container">
+        <div class="bar-menu-title">
+          <button class="bar-menu-title__btn">
+            Основное Меню
+          </button>
+          <button class="bar-menu-title__btn bar-menu-title__btn--active">
+            Барная карта
+          </button>
+        </div>
+        <div class="bar-menu__filter">
+          <ul class="bar-menu__list">
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Холодные закуски
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Салаты
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Горячие закуски
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Супы
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Паста
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Основные блюда
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Пицца
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Блюда на гриле
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Морепродукты
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Гарниры
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Соусы
+              </a>
+            </li>
+            <li class="bar-menu__item">
+              <a class="bar-menu__link" href="#">
+                Десерты
+              </a>
+            </li>
+          </ul>
+          <form class="bar-menu__form">
+            <input type="text" class="bar-menu__input" placeholder="Поиск...">
+            <button class="bar-menu__search">
+              <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12.5556 24.1111C18.9375 24.1111 24.1111 18.9375 24.1111 12.5556C24.1111 6.17361 18.9375 1 12.5556 1C6.17361 1 1 6.17361 1 12.5556C1 18.9375 6.17361 24.1111 12.5556 24.1111Z"
+                  stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M30 30L21 21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </form>
+        </div>
+
+        <div class="filter">
+          <button class="filter__button">
+            Фильтры
+            <svg width="29" height="26" viewBox="0 0 29 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M27.5398 2.35184H10.8185C10.3588 0.986467 9.06734 0 7.54892 0C6.0305 0 4.73905 0.986467 4.27934 2.35184H1.66927C1.06296 2.35184 0.571411 2.84339 0.571411 3.44971C0.571411 4.05602 1.06296 4.54757 1.66927 4.54757H4.27941C4.73912 5.91295 6.03057 6.89941 7.54899 6.89941C9.06741 6.89941 10.3589 5.91295 10.8186 4.54757H27.5398C28.1462 4.54757 28.6377 4.05602 28.6377 3.44971C28.6377 2.84339 28.1462 2.35184 27.5398 2.35184ZM7.54892 4.70369C6.85749 4.70369 6.29494 4.14114 6.29494 3.44971C6.29494 2.75827 6.85749 2.19573 7.54892 2.19573C8.24035 2.19573 8.8029 2.75827 8.8029 3.44971C8.8029 4.14114 8.24035 4.70369 7.54892 4.70369Z"
+                fill="white" />
+              <path
+                d="M27.5397 11.7596H24.9296C24.4699 10.3942 23.1783 9.40771 21.66 9.40771C20.1416 9.40771 18.8502 10.3942 18.3905 11.7596H1.66921C1.0629 11.7596 0.57135 12.2511 0.57135 12.8574C0.57135 13.4637 1.0629 13.9553 1.66921 13.9553H18.3905C18.8502 15.3207 20.1417 16.3071 21.6601 16.3071C23.1784 16.3071 24.4699 15.3207 24.9296 13.9553H27.5398C28.1461 13.9553 28.6376 13.4637 28.6376 12.8574C28.6376 12.2511 28.1461 11.7596 27.5397 11.7596ZM21.6601 14.1114C20.9686 14.1114 20.4061 13.5489 20.4061 12.8574C20.4061 12.166 20.9686 11.6034 21.6601 11.6034C22.3515 11.6034 22.914 12.166 22.914 12.8574C22.914 13.5489 22.3515 14.1114 21.6601 14.1114Z"
+                fill="white" />
+              <path
+                d="M27.5397 21.1668H15.5222C15.0625 19.8014 13.771 18.8149 12.2526 18.8149C10.7342 18.8149 9.44275 19.8014 8.98303 21.1668H1.66921C1.0629 21.1668 0.57135 21.6583 0.57135 22.2646C0.57135 22.871 1.0629 23.3625 1.66921 23.3625H8.98303C9.44275 24.7279 10.7342 25.7144 12.2526 25.7144C13.771 25.7144 15.0625 24.7279 15.5222 23.3625H27.5398C28.1461 23.3625 28.6376 22.871 28.6376 22.2646C28.6376 21.6583 28.1461 21.1668 27.5397 21.1668ZM12.2526 23.5187C11.5612 23.5187 10.9986 22.9562 10.9986 22.2647C10.9986 21.5733 11.5612 21.0107 12.2526 21.0107C12.9441 21.0107 13.5066 21.5732 13.5066 22.2646C13.5066 22.9561 12.9441 23.5187 12.2526 23.5187Z"
+                fill="white" />
+            </svg>
+          </button>
+          <button class="filter__btn">шоты до 400₽</button>
+        </div>
+
+        <ul class="filter__content">
+          <li class="filter__item">
+            <h3 class="filter__title">Kaif</h3>
+            <p>Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок</p>
+            <div class="filter__more">
+              <div class="filter__price"><span>322₽</span>/100г</div>
+              <a class="filter__all" href="#">подробнее</a>
+            </div>
+          </li>
+
+          <li class="filter__item">
+            <h3 class="filter__title">Старый немец</h3>
+            <p>Olmeca Chocolate, Martini Bitter, Cola, сироп</p>
+            <div class="filter__more">
+              <div class="filter__price"><span>359₽</span>/100г</div>
+              <a class="filter__all" href="#">подробнее</a>
+            </div>
+          </li>
+
+          <li class="filter__item">
+            <h3 class="filter__title">Кловер клаб</h3>
+            <p>Джин Barrister, сироп, сок лимона, белок</p>
+            <div class="filter__more">
+              <div class="filter__price"><span>249₽</span>/100г</div>
+              <a class="filter__all" href="#">подробнее</a>
+            </div>
+          </li>
+
+          <li class="filter__item">
+            <h3 class="filter__title">Кловер клаб</h3>
+            <p>Джин Barrister, сироп, сок лимона, белок</p>
+            <div class="filter__more">
+              <div class="filter__price"><span>249₽</span>/100г</div>
+              <a class="filter__all" href="#">подробнее</a>
+            </div>
+          </li>
+
+          <li class="filter__item">
+            <h3 class="filter__title">Kaif</h3>
+            <p>Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок</p>
+            <div class="filter__more">
+              <div class="filter__price"><span>322₽</span>/100г</div>
+              <a class="filter__all" href="#">подробнее</a>
+            </div>
+          </li>
+
+          <li class="filter__item">
+            <h3 class="filter__title">Старый немец</h3>
+            <p>Olmeca Chocolate, Martini Bitter, Cola, сироп</p>
+            <div class="filter__more">
+              <div class="filter__price"><span>359₽</span>/100г</div>
+              <a class="filter__all" href="#">подробнее</a>
+            </div>
+          </li>
+
+          <li class="filter__item filter__item-img">
+            <img class="filter__img" src="image/bar-menu/bar1.png" alt="Коктель">
+            <div class="filter__item-content">
+              <h3 class="filter__title">Kaif</h3>
+              <p>Martini Bianco, ликер Blue Curacao, сок лимона, сироп, белок</p>
+              <div class="filter__more">
+                <div class="filter__price"><span>322₽</span>/100г</div>
+                <a class="filter__all" href="#">подробнее</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="filter__item filter__item-img">
+            <img class="filter__img" src="image/bar-menu/bar2.png" alt="Коктель">
+            <div class="filter__item-content">
+              <h3 class="filter__title">Старый немец</h3>
+              <p>Olmeca Chocolate, Martini Bitter, Cola, сироп</p>
+              <div class="filter__more">
+                <div class="filter__price"><span>359₽</span>/100г</div>
+                <a class="filter__all" href="#">подробнее</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="filter__item filter__item-img">
+            <img class="filter__img" src="image/bar-menu/bar3.png" alt="Коктель">
+            <div class="filter__item-content">
+              <h3 class="filter__title">Кловер клаб</h3>
+              <p>Джин Barrister, сироп, сок лимона, белок</p>
+              <div class="filter__more">
+                <div class="filter__price"><span>249₽</span>/100г</div>
+                <a class="filter__all" href="#">подробнее</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <a class="filter-btn__all" href="#">Показать еще</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__logo">
+          <a class="logo" href="#">
+            <img class="logo__img" src="image/logo/logo.svg" alt="Логотип">
+          </a>
+        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              Акции
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              Команда
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              Меню
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              Интерьер
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              Интерьер
+            </a>
+          </li>
+        </ul>
+        <div class="footer__reserv">
+          <a class="footer__phone" href="tel:88009999999">8 (800) 999-99-99</a>
+          <p>Бронь столов с 09:00 до 19:00</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom-confid">
+          <a href="#">Политика конфидециальности</a>
+          <a href="#">Договор оферты</a>
+        </div>
+
+        <div class="footer__copy">
+          Информация на сайте не является публичной офертой
+        </div>
+
+        <div class="footer__social">
+          <a href="#">
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.554528 7.78198L4.3202 9.18744L5.77774 13.8749C5.871 14.1751 6.23811 14.2861 6.48178 14.0869L8.58083 12.3757C8.80086 12.1964 9.11425 12.1875 9.34419 12.3544L13.1301 15.103C13.3908 15.2925 13.7601 15.1497 13.8255 14.8347L16.5989 1.49415C16.6702 1.15008 16.3321 0.86305 16.0045 0.98976L0.550116 6.95161C0.168733 7.09869 0.172056 7.63865 0.554528 7.78198ZM5.54284 8.43928L12.9024 3.90654C13.0346 3.82532 13.1707 4.00416 13.0571 4.10951L6.98339 9.75535C6.7699 9.95407 6.63219 10.22 6.59318 10.5087L6.38629 12.042C6.35889 12.2467 6.07131 12.267 6.01482 12.0689L5.2191 9.27291C5.12796 8.95401 5.26077 8.61338 5.54284 8.43928Z"
+                fill="#BD2D43" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M13.7748 2.3541C12.2928 0.863117 10.3219 0.0416459 8.22211 0.0407715C3.89539 0.0407715 0.374072 3.57917 0.372332 7.92815C0.371751 9.31839 0.733165 10.6755 1.42012 11.8717L0.306488 15.9591L4.46778 14.8622C5.61438 15.4907 6.90524 15.822 8.21892 15.8223H8.22221C12.5484 15.8223 16.0702 12.2837 16.0718 7.93447C16.0727 5.82673 15.2569 3.84499 13.7748 2.3541ZM8.22211 14.4902H8.2194C7.04872 14.4897 5.90057 14.1736 4.89871 13.5763L4.66057 13.4342L2.1912 14.0852L2.85031 11.6658L2.69513 11.4178C2.04201 10.3739 1.69713 9.16741 1.69771 7.92864C1.69906 4.31388 4.62596 1.373 8.22472 1.373C9.9674 1.37358 11.6056 2.05641 12.8373 3.29566C14.0691 4.53491 14.7471 6.18213 14.7465 7.93398C14.745 11.549 11.8183 14.4902 8.22211 14.4902ZM11.8009 9.57994C11.6048 9.48123 10.6404 9.00457 10.4606 8.9387C10.281 8.87292 10.15 8.84018 10.0194 9.03741C9.8886 9.23464 9.51278 9.67865 9.3983 9.81011C9.28382 9.94166 9.16954 9.95817 8.97336 9.85946C8.77719 9.76085 8.14525 9.55264 7.39602 8.88118C6.813 8.35857 6.41939 7.71314 6.30492 7.51591C6.19063 7.31849 6.30395 7.22211 6.39097 7.11368C6.60329 6.84873 6.8159 6.57096 6.88126 6.4395C6.94672 6.30795 6.91394 6.19282 6.86483 6.0942C6.8159 5.99559 6.42365 5.02546 6.26025 4.63071C6.10091 4.24655 5.93934 4.29843 5.81887 4.29241C5.70459 4.28667 5.57377 4.28551 5.44296 4.28551C5.31224 4.28551 5.09972 4.33477 4.91988 4.53219C4.74014 4.72952 4.23351 5.20627 4.23351 6.1764C4.23351 7.14652 4.93632 8.0837 5.03436 8.21526C5.1324 8.34681 6.41746 10.3376 8.38493 11.1912C8.85289 11.3945 9.21817 11.5156 9.50311 11.6065C9.97301 11.7565 10.4005 11.7353 10.7385 11.6846C11.1154 11.6279 11.8988 11.2077 12.0624 10.7474C12.2258 10.287 12.2258 9.8924 12.1767 9.81011C12.1278 9.72791 11.9969 9.67865 11.8009 9.57994Z"
+                fill="#BD2D43" />
+            </svg>
+          </a>
+          <a href="#">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.89807 0.742782C5.48127 0.742782 2.23667 0.439077 0.997365 3.61717C0.485456 4.92978 0.559796 6.63448 0.559796 9.0754C0.559796 11.2173 0.491102 13.2304 0.997365 14.5327C2.23385 17.7127 5.5048 17.408 8.89619 17.408C12.1681 17.408 15.5416 17.7484 16.796 14.5327C17.3088 13.2069 17.2335 11.5276 17.2335 9.0754C17.2335 5.82021 17.4133 3.71872 15.8333 2.14096C14.2336 0.542506 12.0702 0.742782 8.89431 0.742782H8.89807ZM8.15091 2.24438C15.2781 2.2331 16.1852 1.4414 15.6846 12.4397C15.5068 16.3295 12.5426 15.9027 8.89901 15.9027C2.25549 15.9027 2.06447 15.7127 2.06447 9.07164C2.06447 2.35346 2.59143 2.24815 8.15091 2.2425V2.24438ZM13.349 3.62751C12.7967 3.62751 12.3488 4.07508 12.3488 4.62701C12.3488 5.17895 12.7967 5.62651 13.349 5.62651C13.9014 5.62651 14.3493 5.17895 14.3493 4.62701C14.3493 4.07508 13.9014 3.62751 13.349 3.62751ZM8.89807 4.79626C6.53332 4.79626 4.61648 6.71252 4.61648 9.0754C4.61648 11.4383 6.53332 13.3536 8.89807 13.3536C11.2628 13.3536 13.1787 11.4383 13.1787 9.0754C13.1787 6.71252 11.2628 4.79626 8.89807 4.79626ZM8.89807 6.29786C12.5727 6.29786 12.5774 11.8529 8.89807 11.8529C5.22438 11.8529 5.21873 6.29786 8.89807 6.29786Z"
+                fill="#BD2D43" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

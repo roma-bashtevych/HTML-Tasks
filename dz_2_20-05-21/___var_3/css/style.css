@@ -1,0 +1,51 @@
+ body {
+   font-size: 50px;
+   line-height: 2.2;
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+ }
+
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+
+ .flex-container {
+   display: flex;
+   height: 300px;
+   color: #fff;
+   flex-flow: column wrap;
+ }
+
+ .flex-item {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .zero{
+   background-color: #ff4563;
+ }
+
+ .one {
+   background-color: #508694;
+   flex-basis: 100%;
+   order: 1;
+ }
+
+ .two {
+   background-color: #BB844C;
+   flex: 1 1 0;
+   order: 2;
+ }
+
+ .three {
+   background-color: #929D79;
+   flex: 1 1 0;
+   order: 3;
+ }
+
+ .four{
+   background-color: #cc2525;
+ }

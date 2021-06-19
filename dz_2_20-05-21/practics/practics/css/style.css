@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(109, 107, 107);
+}
+
+.header__nav {
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+  background-color: rgb(247, 152, 152);
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  background-color: #000;
+}
+
+.section__aside {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(216, 7, 136);
+}
+
+.main__header {
+  height: 90px;
+  background-color: rgb(224, 131, 9);
+}
+
+.section__header {
+  background-color: rgb(158, 15, 15);
+  width: 100%;
+  height: 50px;
+}
+
+.section__nav {
+  background-color: rgb(7, 28, 124);
+  width: 100%;
+  height: 100%;
+}
+
+.section__footer {
+  background-color: rgb(88, 150, 72);
+  Width: 100%;
+  height: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  background-color: rgb(14, 81, 224);
+}
+
+.article__header {
+  height: 50px;
+}
+
+.article-1 {
+  background-color: rgb(9, 253, 42);
+}
+
+.parag {
+  background-color: rgb(184, 4, 103);
+  height: 50px;
+}
+
+.article__header {
+  background-color: rgb(11, 243, 231);
+}
+
+.article__footer {
+  background-color: rgb(175, 247, 9);
+  height: 50px;
+}
+
+.article-2 {
+  background-color: rgb(11, 213, 240);
+}
+
+.article-2__header {
+  background-color: rgb(134, 69, 69);
+}
+
+.article-2__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-2__inner p {
+  width: 70%;
+  height: 330px;
+  background-color: rgb(20, 5, 5);
+}
+
+.article-2__inner aside {
+  background-color: rgb(35, 2, 61);
+  width: 30%;
+  height: 330px;
+}
+
+.article-2__inner footer {
+  background-color: rgb(75, 7, 19);
+  width: 100%;
+  height: 50px;
+}
+
+.main__footer {
+  height: 100px;
+  background-color: rgb(27, 194, 5);
+}
+
+.footer {
+  background-color: rgb(226, 5, 178);
+  height: 100px;
+  width: 100%;
+}

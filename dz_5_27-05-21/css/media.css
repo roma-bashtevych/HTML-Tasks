@@ -1,0 +1,136 @@
+@media(max-width: 1400px) {
+  .header__top-btn {
+    display: none;
+  }
+
+  .menu {
+    width: 100%;
+    column-gap: 0;
+    justify-content: space-between;
+  }
+
+  .play {
+    left: 42%;
+  }
+}
+
+@media(max-width: 1200px) {
+  .header__content {
+    justify-content: center;
+  }
+
+  .header__content--left {
+    max-width: 80%;
+  }
+
+  .play {
+    display: none;
+  }
+
+  .header__title {
+    display: none;
+  }
+
+  .video__movie {
+    padding-top: 50px;
+    display: block;
+  }
+
+  .video__movie iframe {
+    width: 100%;
+    min-height: 600px;
+  }
+}
+
+@media(max-width: 992px) {
+  .header__inner {
+    height: 72px;
+    margin-bottom: 50px;
+  }
+
+  .logo__img {
+    max-width: 200px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .menu__list {
+    column-gap: 10px;
+  }
+
+  .header__content {
+    display: block;
+  }
+
+  .header__content--left {
+    max-width: 100%;
+  }
+
+  .video__movie iframe {
+    min-height: 400px;
+  }
+}
+
+@media(max-width: 768px) {
+  .menu__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #01353E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-300%);
+    transition: transform 0.5s ease;
+    height: 100vh;
+    padding: 20px 0;
+    z-index: 2;
+  }
+
+  .menu__link {
+    color: #3298f2;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 30px;
+    display: block;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.5s ease;
+  }
+
+  .menu__link:hover {
+    border-color: #3298f2;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .menu__list--active {
+    transform: translateY(0);
+  }
+
+  .menu__btn {
+    display: block;
+    position: absolute;
+    right: 10px;
+    padding: 20px;
+    border: none;
+    z-index: 3;
+  }
+
+  .video__movie iframe {
+    min-height: 250px;
+  }
+
+  .header__text--bold{
+    margin-bottom: 50px;
+  }
+
+  .btn {
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practicBlog</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="menu">
+          <button class="menu__btn" type="button">
+            <span class="menu__line menu__line--top"></span>
+            <span class="menu__line menu__line--center"></span>
+            <span class="menu__line menu__line--bottom"></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Головна
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link menu__link--active">
+                Блог
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">
+                Контактна форма
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="icon">
+          <div class="icon-facebook">
+            <a class="icon__link" href="#">
+              <svg width="12" height="25" viewBox="0 0 12 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M3.00841 4.98577C3.00841 5.58409 3.00841 8.26548 3.00841 8.26548H0.665771V12.2765H3.00841V24.1987H7.81782V12.2765H11.0457C11.0457 12.2765 11.348 10.3541 11.4937 8.24886C11.0727 8.24886 7.83402 8.24886 7.83402 8.24886C7.83402 8.24886 7.83402 5.9165 7.83402 5.50653C7.83402 5.09657 8.3576 4.54256 8.87579 4.54256C9.39397 4.54256 10.4843 4.54256 11.4991 4.54256C11.4991 3.9941 11.4991 2.11047 11.4991 0.365356C10.1497 0.365356 8.6113 0.365356 7.93657 0.365356C2.88965 0.370897 3.00841 4.38744 3.00841 4.98577Z"
+                  fill="#C4C4C4" />
+              </svg>
+            </a>
+          </div>
+          <div class="icon-instagram">
+            <a class="icon__link" href="#">
+              <svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18.0442 0.365356H8.56508C4.20071 0.365356 0.665771 3.7993 0.665771 8.03897V17.2473C0.665771 21.487 4.20071 24.9209 8.56508 24.9209H18.0442C22.4086 24.9209 25.9436 21.487 25.9436 17.2473V8.03897C25.9436 3.7993 22.4086 0.365356 18.0442 0.365356ZM23.5738 17.2473C23.5738 20.2112 21.0954 22.6188 18.0442 22.6188H8.56508C5.51397 22.6188 3.03556 20.2112 3.03556 17.2473V8.03897C3.03556 5.07504 5.51397 2.66744 8.56508 2.66744H18.0442C21.0954 2.66744 23.5738 5.07504 23.5738 8.03897V17.2473Z"
+                  fill="#C4C4C4" />
+                <path
+                  d="M13.3046 6.50427C9.81405 6.50427 6.98511 9.25238 6.98511 12.6432C6.98511 16.0339 9.81405 18.782 13.3046 18.782C16.7951 18.782 19.624 16.0339 19.624 12.6432C19.624 9.25238 16.7951 6.50427 13.3046 6.50427ZM13.3046 16.48C11.1273 16.48 9.3549 14.7582 9.3549 12.6432C9.3549 10.5281 11.1273 8.80636 13.3046 8.80636C15.4818 8.80636 17.2542 10.5281 17.2542 12.6432C17.2542 14.7582 15.4818 16.48 13.3046 16.48Z"
+                  fill="#C4C4C4" />
+                <path
+                  d="M20.0979 6.86399C20.5642 6.86399 20.9421 6.49681 20.9421 6.04387C20.9421 5.59093 20.5642 5.22375 20.0979 5.22375C19.6316 5.22375 19.2537 5.59093 19.2537 6.04387C19.2537 6.49681 19.6316 6.86399 20.0979 6.86399Z"
+                  fill="#C4C4C4" />
+              </svg>
+            </a>
+          </div>
+          <div class="icon-twitter">
+            <a class="icon__link" href="#">
+              <svg width="31" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M31 3.26993C29.8848 3.76391 28.6854 4.09487 27.4264 4.24801C28.7101 3.48234 29.6965 2.26222 30.1624 0.819814C28.958 1.53114 27.6247 2.04487 26.2071 2.32644C25.0721 1.1162 23.4563 0.365356 21.6671 0.365356C18.2323 0.365356 15.4418 3.1415 15.4418 6.56475C15.4418 7.04885 15.4963 7.52307 15.6053 7.97753C10.4358 7.72066 5.8511 5.25078 2.77811 1.49656C2.24282 2.41536 1.94048 3.4774 1.94048 4.61355C1.94048 6.76728 3.0408 8.66415 4.70616 9.7756C3.68514 9.74102 2.72855 9.46439 1.88596 8.99512V9.07415C1.88596 12.0775 4.03209 14.5869 6.87708 15.155C6.35665 15.2933 5.80649 15.3723 5.2365 15.3723C4.83503 15.3723 4.44843 15.3328 4.06678 15.2587C4.85981 17.7237 7.15464 19.5168 9.88067 19.5662C7.75437 21.2309 5.06798 22.2188 2.1536 22.2188C1.653 22.2188 1.15736 22.1892 0.671631 22.1349C3.4274 23.8984 6.69369 24.9258 10.2078 24.9258C21.6522 24.9258 27.9122 15.4761 27.9122 7.28102L27.8923 6.47584C29.1116 5.60644 30.1673 4.51475 31 3.26993Z"
+                  fill="#C4C4C4" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="blog">
+      <div class="container">
+           <div class="filter filter-blog">
+             <div class="filter__inner">
+               <h2 class="title">Blog</h2>
+                  <div class="content__subtitle content__subtitle--filter">
+                    <span>22.09.2019</span>
+                    <span>Alisa Happy</span>
+                  </div>
+                  <div class="blog__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Cursus vitae congue mauris rhoncus. Cursus turpis massa tincidunt
+                      dui ut ornare lectus sit amet. Neque viverra justo nec ultrices. Egestas quis ipsum suspendisse
+                      ultrices gravida dictum fusce ut placerat. A cras semper auctor neque vitae tempus quam
+                      pellentesque. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Sit amet consectetur
+                      adipiscing elit pellentesque habitant. Pharetra sit amet aliquam id diam maecenas ultricies mi
+                      eget. Risus viverra adipiscing at in tellus.Lorem ipsum dolor sit amet, consectetur as quis ipsum
+                      suspendisse ultrices gravida dictum fusce utsagittis vitae. Sit amet consectetur adipiscing elit
+                      pellentesque habitant. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Risus viverra
+                      adipiscing at in tellus.</p>
+                  </div>
+
+               <a class="filter__all--blog" href="#">Назад</a>
+             </div>
+           </div>
+      </div>
+    </section>
+  </main>
+
+
+    <footer class="footer"></footer>
+    <script src="js/main.js"></script>
+    </body>
+
+    </html>
